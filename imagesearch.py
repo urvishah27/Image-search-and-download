@@ -6,7 +6,7 @@ for i in range(keyw):
     a=[]
     userinput=input("Enter keyword : ")
     a.append(userinput)
-    n=int(input("Enter the required number of images : "))  #number of images of a particular keyword
+    n=int(input("Enter the required number of images : "))  #number of images for a particular keyword
     a.append(n)
     search_queries.append(a)
 def downloadimages(search_queries):
